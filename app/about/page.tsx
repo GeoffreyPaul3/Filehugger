@@ -48,7 +48,7 @@ export default function About() {
         <p>
           Unlike other services, we believe in empowering your creativity
           without hidden fees or restrictions. You can convert as many images,
-          audio files, and videos as your heart desires, and it won't cost you a
+          audio files, and videos as your heart desires, and it won&apos;t cost you a
           dime.
         </p>
       </div>
@@ -59,7 +59,7 @@ export default function About() {
         </h2>
         <p>
           Access Modifio from any device with an internet connection. Whether
-          you're on your computer, tablet, or smartphone, you can use our
+          you&lsquo;re on your computer, tablet, or smartphone, you can use our
           platform with ease.
         </p>
       </div>
@@ -91,7 +91,7 @@ export default function About() {
           📈 Constantly Evolving:
         </h2>
         <p>
-          We're committed to staying ahead of the curve. Expect regular updates
+          We&lsquo;re committed to staying ahead of the curve. Expect regular updates
           and new features to keep your multimedia experience fresh and
           exciting.
         </p>
@@ -99,7 +99,7 @@ export default function About() {
 
       <div className="space-y-2">
         <h2 className="text-xl md:text-2xl font-medium text-gray-700">
-          🌟 It's Free, It's Powerful, It's Filehugger:
+          🌟 It&lsquo;s Free, It&lsquo;s Powerful, It&lsquo;s Filehugger:
         </h2>
         <p>
           Experience the freedom to convert images, audio, and video without

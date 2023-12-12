@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Button } from "./ui/button";
 import { Github, Menu } from "lucide-react";
 import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTrigger } from "./ui/sheet";
+import { ThemeToggle } from "./theme-toggle";
 
 
 const NavBar = () => {
@@ -44,6 +45,7 @@ const NavBar = () => {
           </span>
         </Button>
       </Link>
+      
 
 
       {/* MOBILE NAV */}

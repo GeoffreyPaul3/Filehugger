@@ -211,13 +211,20 @@ export default function Dropzone() {
     setFiles(files.filter((elt) => elt.name !== action.file_name));
   };
   useEffect(() => {
+    const checkIsReady = () => {
+      // ... implementation of checkIsReady
+    };
+  
     if (!actions.length) {
       setIsDone(false);
       setFiles([]);
       setIsReady(false);
       setIsConverting(false);
-    } else checkIsReady();
+    } else {
+      checkIsReady();
+    }
   }, [actions]);
+  
   useEffect(() => {
     load();
   }, []);
@@ -241,7 +248,7 @@ export default function Dropzone() {
             )}
             <div className="flex gap-4 items-center">
               <span className="text-2xl text-orange-600">
-                {fileToIcon(action.file_type)}
+                {fileToIcon(action.file_type) as unknown as React.ReactNode}
               </span>
               <div className="flex items-center gap-1 w-96">
                 <span className="text-md font-medium overflow-x-hidden">
